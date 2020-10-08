@@ -206,8 +206,7 @@ hr {
   hr.major {
     margin: 3em 0; }
   hr.minor {
-    margin: 1em 0;
-  }
+    margin: 1em 0; }
 
 .align-left {
   text-align: left; }
@@ -1288,6 +1287,13 @@ a.icon.alt:active:before {
     @media screen and (max-width: 736px) {
       .image.main {
         margin: 1.5em 0; } }
+
+img.round {
+  border-radius: 50%; }
+
+img.center {
+  display: block;
+  margin: auto; }
 
 /* List */
 ol {
@@ -2476,12 +2482,3 @@ body.is-menu-visible #menu {
     visibility: visible; }
 
 /*# sourceMappingURL=main.css.map */
-
-img.center {
-  display: block;
-  margin: 0 auto;
-}
-
-img.round {
-  border-radius: 50%;
-}

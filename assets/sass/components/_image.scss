@@ -12,7 +12,7 @@
 		position: relative;
 
 		img {
-			display: block;
+      display: block;
 		}
 
 		&.left,
@@ -59,4 +59,13 @@
 				margin: (_size(element-margin) * 0.75) 0;
 			}
 		}
-	}
+  }
+
+  img.round {
+    border-radius: 50%;
+  }
+
+  img.center {
+    display: block;
+    margin: auto;
+  }
