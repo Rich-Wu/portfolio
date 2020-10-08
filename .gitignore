@@ -1,5 +1,6 @@
 */*.map
 .sass-cache/
-/README.txt
-/LICENSE.txt
-/elements.html
+README.txt
+LICENSE.txt
+elements.html
+inprogress.html
