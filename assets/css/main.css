@@ -205,6 +205,9 @@ hr {
   margin: 2em 0; }
   hr.major {
     margin: 3em 0; }
+  hr.minor {
+    margin: 1em 0;
+  }
 
 .align-left {
   text-align: left; }
@@ -2473,3 +2476,12 @@ body.is-menu-visible #menu {
     visibility: visible; }
 
 /*# sourceMappingURL=main.css.map */
+
+img.center {
+  display: block;
+  margin: 0 auto;
+}
+
+img.round {
+  border-radius: 50%;
+}
